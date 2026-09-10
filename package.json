@@ -1,0 +1,24 @@
+{
+  "name": "saucedemo-cypress-automation",
+  "version": "1.0.0",
+  "description": "End-to-end UI automation suite for SauceDemo (saucedemo.com) built with Cypress and the Page Object Model, developed as part of the 10Pearls QA Internship (Assignment 6).",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run:chrome": "cypress run --browser chrome",
+    "test": "cypress run"
+  },
+  "keywords": [
+    "cypress",
+    "automation",
+    "e2e",
+    "qa",
+    "saucedemo",
+    "page-object-model"
+  ],
+  "author": "Muhammad Saim Ovais",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.15.0"
+  }
+}
